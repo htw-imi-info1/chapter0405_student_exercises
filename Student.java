@@ -19,4 +19,20 @@ public class Student
         this.enrolmentNumber = enrolmentNumber;
     }
 
+    public String getName(){
+        return name;
+    }
+
+    public int getSemester(){
+        return semester;
+    }
+
+    public int getYearOfBirth(){ 
+        return yearOfBirth;
+    }
+
+    public int getEnrolmentNumber(){
+        return enrolmentNumber;
+    }
+
 }
