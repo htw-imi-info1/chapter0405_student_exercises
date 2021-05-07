@@ -10,4 +10,7 @@ public class StreamExercises
         students = exampleData.generateStudents();
     }
     
+    public int numberOfStudents() {
+        return students.size();
+    }
 }

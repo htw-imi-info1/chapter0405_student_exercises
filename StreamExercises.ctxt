@@ -2,4 +2,6 @@
 comment0.target=StreamExercises
 comment1.params=
 comment1.target=StreamExercises()
-numComments=2
+comment2.params=
+comment2.target=int\ numberOfStudents()
+numComments=3
