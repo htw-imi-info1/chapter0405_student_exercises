@@ -2,4 +2,6 @@
 comment0.target=ExampleData
 comment1.params=
 comment1.target=java.util.List\ generateStudents()
-numComments=2
+comment2.params=min\ max
+comment2.target=int\ randomNumberBetween(int,\ int)
+numComments=3
