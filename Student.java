@@ -36,7 +36,7 @@ public class Student
     }
     
     public String getDescription(){
-        return getName() + "(" + getEnrolmentNumber() + ")";
+        return getName() + " (" + getEnrolmentNumber() + ")";
     }
 
 }
