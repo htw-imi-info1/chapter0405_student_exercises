@@ -34,5 +34,9 @@ public class Student
     public int getEnrolmentNumber(){
         return enrolmentNumber;
     }
+    
+    public String getDescription(){
+        return getName() + "(" + getEnrolmentNumber() + ")";
+    }
 
 }
