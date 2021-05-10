@@ -4,6 +4,7 @@
  *
  * @author Barne Kleinen
  */
+import java.time.Year;
 public class Student
 {
     private String name;
@@ -37,6 +38,10 @@ public class Student
     
     public String getDescription(){
         return getName() + " (" + getEnrolmentNumber() + ")";
+    }
+    
+    public int getAge(){
+        return Year.now().getValue() - getYearOfBirth();
     }
 
 }
